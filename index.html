@@ -38,13 +38,20 @@
       <!-- Line 15 contains "container-fluid" for consistent page resizing-->
       <!-- Line 22 pull-right pulls navigation links to the right side of the page-->
     
-    <div class="container-sm">
-      <div class="card">
-          <div class="card-body">
-            <img src="https://via.placeholder.com/200"></img> This is some text within a card body.
-          </div>
-        </div>
-      </div>
+    <div class="container-fluid">
+          <div class="card" style="width: 40rem;">
+            <div class="card-header"><h4>About Me</h4></div> 
+              <div class="card-body">
+                <div class="float-left p-3">
+                <img src="https://via.placeholder.com/200"></img> </div> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque finibus vulputate elit, a porttitor orci. Mauris sem quam, ullamcorper eu sapien et, pharetra volutpat lectus. 
+                  Donec id dui ac velit ultricies tempor condimentum quis purus. Donec a risus tempus, tincidunt nisi vel, tincidunt quam. Morbi ac scelerisque velit, eu consectetur mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                  Etiam vitae consequat lacus. Fusce eros dui, elementum molestie facilisis non, imperdiet id ipsum. 
+                  Sed lobortis ornare risus id egestas. Duis condimentum, lacus ut pretium gravida, justo mauris interdum sapien, dignissim tincidunt felis odio a dolor. Praesent pretium posuere arcu.</p>
+              </div>
+            </div>
+    </div>
+
+    <!-- div class on line 45 floats place holder image to float left to allow text to wrap around it. padding size 3 so text doesn't run into image file -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
