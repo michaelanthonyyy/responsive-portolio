@@ -54,16 +54,15 @@ This snippet from portfolio.html showcases Bootstraps utilization of the grid sy
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Bootstrap] https://getbootstrap.com/ 
+* [Bootstrap] (https://getbootstrap.com/)
 
 <br>
 <br>
 
 ## Deployed Link
 
-[Live Link "Responsive Portfolio"](https://michaelanthonyyy.github.io/responsive-portfolio/)
+[Live Link "Responsive Portfolio"](https://michaelanthonyyy.github.io/responsive-portolio/)
 
-<br>
 <br>
 
 ## Authors
