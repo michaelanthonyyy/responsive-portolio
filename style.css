@@ -1,0 +1,22 @@
+body {
+    background-image:"";
+    background-color: #999;
+}
+
+.navbar-brand h3 {
+    background-color: #20B2AA;
+    color :#ffffff;
+}
+
+.card-body h4 {
+    background-color: #ffffff;
+    color :#20B2AA;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: #696969;
+    color: #87CEFA;
+}
