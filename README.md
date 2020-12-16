@@ -7,7 +7,7 @@ whether it be a desktop screen resized or even a mobile device. Taking into acco
 <br>
 
 ## Site Picture
-![Site](assets/images/01-html-css-git-homework-demo.png)
+![Site](Assets/Images/screenshot.png)
 <br>
 <br>
 
