@@ -54,7 +54,7 @@ This snippet from portfolio.html showcases Bootstraps utilization of the grid sy
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Bootstrap] (https://getbootstrap.com/)
+* [BootStrap](https://getbootstrap.com/)
 
 <br>
 <br>
