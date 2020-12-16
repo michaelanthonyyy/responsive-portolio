@@ -12,7 +12,7 @@
   <body>
 
   <nav class="navbar navbar-expand-lg bg-light navbar-light">
-    <div class="container-fluid">
+    <nav class="container-fluid">
       <a class="navbar-brand" href="#"><h3>Michael Medina</h3></a>    
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
@@ -31,7 +31,7 @@
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   </nav>
     <!-- Lines 13-35 contain the navigation bar **consistent on each index,contact,portfolio pages** -->
     <!-- Line 17-20 creates a button when page is resized to smaller devices -->
@@ -39,9 +39,9 @@
     <!-- Line 22 pull-right pulls navigation links to the right side of the page-->
   <br>
   <br>
-    <div class="container-fluid">
+    <main class="container-fluid">
       <div class="card col-sm-8 col-md-10">
-          <div class="card-body">
+          <section class="card-body">
             <h4>Contact</h4><hr>
             <form>
                 <div class="form-row">
@@ -64,9 +64,10 @@
           </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
-          </div>    
+          </section>    
       </div>
-    </div>
+    </main>  
+  <!-- div class changes on lines 42, 44, 67, and 69 to indicate in the tag the main container as well as the section of the content in the card-body -->
   <!-- Lines 34-60 is a bootstrap form inside of a card -->
   <!-- changed line 60 to textarea class to change initial size of input area as well as give it ability to resize on page-->
   <!-- Lines 39, 45, 51 are placeholders for initial sizing of contact card -->
@@ -78,9 +79,9 @@
  
   <footer class="page-footer">
 
-    <div class="footer-copyright text-center p-3"> &#169; Copyright
+    <footer class="footer-copyright text-center p-3"> &#169; Copyright
       <a href="https://github.com/michaelanthonyyy/responsive-portolio"> Github Repo</a>
-    </div>
+    </footer>
   
   </footer>
 </html>

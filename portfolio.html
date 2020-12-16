@@ -38,9 +38,9 @@
       <!-- Line 15 contains "container-fluid" for consistent page resizing-->
       <!-- Line 22 pull-right pulls navigation links to the right side of the page-->
 
-      <div class="container-fluid">
+      <main class="container-fluid">
         <div class="card col-auto">
-            <div class="card-body">
+            <section class="card-body">
               <h4>Portfolio</h4><hr>
                 <div class="container-fluid">
                   <div class="row">
@@ -69,9 +69,10 @@
                     </div>
                   </div>
                 </div>
-            </div>
+              </section>
         </div>
-      </div>
+      </main>
+      <!-- semantics added for styling on lines 41, 43, 72, 74 as well as ease of reading/editing in future versions -->
 <!-- Lines 46-70 broke up placeholder images with separate rows and columns -->
 <!-- Line 42 the "div class" sizing is set to  "auto" so as page is resized smaller or larger the images adjust accordingly-->
 
@@ -82,9 +83,9 @@
 
   <footer class="page-footer">
 
-    <div class="footer-copyright text-center p-3"> &#169; Copyright
+    <footer class="footer-copyright text-center p-3"> &#169; Copyright
       <a href="https://github.com/michaelanthonyyy/responsive-portolio"> Github Repo</a>
-    </div>
-  
+    </footer>
+  <!-- div class changed for semantics and ease of styling -->
   </footer>
 </html>

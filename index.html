@@ -39,10 +39,10 @@
       <!-- Line 22 pull-right pulls navigation links to the right side of the page-->
     <br>
     <br>
-    <div class="container-fluid">
-      <!-- added div class sizing on line 44 for webpage size changes -->
+    <main class="container-fluid">
+      <!-- added class sizing on line 44 for webpage size changes -->
           <div class="card col-sm-8 col-md-10">
-              <div class="card-body">
+              <section class="card-body">
                 <h4>About Me</h4><hr>
                   <div class="float-left p-3">
                 <img src="https://via.placeholder.com/200" height=200px width=200px></img> </div> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque finibus vulputate elit, a porttitor orci. Mauris sem quam, ullamcorper eu sapien et, pharetra volutpat lectus. 
@@ -50,11 +50,10 @@
                   
                   <p>Etiam vitae consequat lacus. Fusce eros dui, elementum molestie facilisis non, imperdiet id ipsum. 
                   Sed lobortis ornare risus id egestas. Duis condimentum, lacus ut pretium gravida, justo mauris interdum sapien, dignissim tincidunt felis odio a dolor. Praesent pretium posuere arcu.</p>
-              </div>
+                </section>
           </div>
-        </div>
-    </div>
-
+      </main>
+    <!-- changed classes to proper semantics on lines 42, 45, 53, 55 for ease of reading and context about content on page-->
     <!-- div class on line 45 floats place holder image to float left to allow text to wrap around it. padding size 3 so text doesn't run into image file -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -65,10 +64,9 @@
 
   <footer class="page-footer">
 
-    <div class="footer-copyright text-center p-3"> &#169; Copyright
+    <footer class="footer-copyright text-center p-3"> &#169; Copyright
       <a href="https://github.com/michaelanthonyyy/responsive-portolio"> Github Repo</a>
-    </div>
-    <!-- Footer added with Copyright symbol and github repo hyperlink -->
-  
+    </footer>
   </footer>
+  <!-- Footer added with Copyright symbol and github repo hyperlink. div class changed to footer -->
 </html>
